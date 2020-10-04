@@ -1,0 +1,296 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+    height: auto;
+  }
+
+  .banner .row {
+    padding: 60px 0;
+  }
+
+  .banner-text,
+  .banner-form {
+    height: auto;
+  }
+
+  .banner-form .card {
+    margin-left: 0px;
+  }
+
+  .banner .card-header h4 {
+    font-size: 23px;
+  }
+
+  .social-media .col-md-7 ul li {
+    margin-left: 18px;
+  }
+
+  .social-media .col-md-7 ul li i {
+    font-size: 34px;
+  }
+
+  .feature-1 {
+    padding: 70px 0;
+  }
+
+  .feature-1 ul li {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+  }
+
+  .feature-2 .row {
+    flex-direction: column;
+  }
+
+  .feature-2 .col-md-6 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .feature-2 .line {
+    margin: 30px auto;
+  }
+
+  .feature-2 .feature-img {
+    justify-content: center;
+  }
+
+  .feature-2 .col-md-2 {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .feature-2 .col-md-10 {
+    max-width: 100%;
+  }
+
+  .feature-3 .row {
+    flex-direction: column-reverse;
+  }
+
+  .feature-3 .col-md-6 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .feature-3 .line {
+    margin: 30px auto;
+  }
+
+  .feature-3 .feature-3-img {
+    justify-content: center;
+  }
+
+  .price .col-md-4 {
+    padding: 0 5px;
+  }
+
+  .price .col-md-4 .card {
+    margin-left: 0px;
+  }
+
+  .user-comment .col-md-4 {
+    padding: 0 5px;
+  }
+
+  .comments .title {
+    font-size: 35px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner {
+    height: auto;
+  }
+
+  .banner .row {
+    padding: 60px 0;
+  }
+
+  .banner-form {
+    height: auto;
+  }
+
+  .banner-form .card {
+    margin-left: 0px;
+  }
+
+  .banner .card-header h4 {
+    font-size: 22px;
+  }
+
+  .social-media .col-md-5 {
+    text-align: center;
+  }
+
+  .social-media .col-md-7 {
+    text-align: center;
+  }
+
+  .social-media .col-md-7 ul li i {
+    font-size: 22px;
+  }
+
+  .feature-1 {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .feature-1 ul li {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+  }
+
+  .feature-1 .item-1,
+  .feature-1 .item-2 {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  .feature-1 .item-2,
+  .feature-1 .item-3 {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .feature-1 button {
+    margin: 40px;
+  }
+  .feature-2 {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .feature-2 .row {
+    flex-direction: column;
+  }
+
+  .feature-2 .col-md-6 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .feature-2 .line {
+    margin: 30px auto;
+  }
+
+  .feature-2 .feature-img {
+    justify-content: center;
+  }
+
+  .feature-2 .col-md-2 {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .feature-2 .col-md-10 {
+    max-width: 100%;
+  }
+
+  .feature-3 .row {
+    flex-direction: column-reverse;
+  }
+
+  .feature-3 .col-md-6 {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .feature-3 .line {
+    margin: 30px auto;
+  }
+
+  .feature-3 .feature-3-img {
+    justify-content: center;
+  }
+
+  .price .col-md-4 {
+    padding: 0 5px;
+  }
+
+  .price .col-md-4 .card {
+    margin-left: 0px;
+  }
+  .about-us {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .about-us .col-md-4 {
+    margin-bottom: 20px;
+  }
+
+  .about-us .title {
+    font-size: 28px;
+  }
+
+  .pricing {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .pricing .title {
+    font-size: 28px;
+  }
+
+  .price {
+    margin-top: 20px;
+  }
+
+  .price .col-md-4 {
+    margin: 40px;
+  }
+
+  .comments {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .comments .title {
+    font-size: 28px;
+  }
+
+  .icon-box {
+    left: 45%;
+  }
+
+  .user .col-md-8 {
+    text-align: center;
+  }
+
+  .user .col-md-8 h5 {
+    margin: 0;
+  }
+
+  .custom-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .custom-section .title {
+    font-size: 28px;
+  }
+
+  .contact {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .contact .title {
+    font-size: 28px;
+  }
+}
