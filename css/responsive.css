@@ -147,6 +147,11 @@
     padding: 40px 0;
     text-align: center;
   }
+  
+  .feature-1 .col-md-4 {
+    max-width: 100%;
+    justify-content: center;
+  }
 
   .feature-1 ul li {
     display: inline-block;
